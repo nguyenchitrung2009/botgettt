@@ -4,7 +4,7 @@ from urllib.parse import urlparse, parse_qs
 import sys
 
 # Khởi tạo bot với token của bạn
-bot_token = '7167198827:AAGfl5zAA7k1pawqXkolNHqrmnDi82Ta1RQ'
+bot_token = '7182083113:AAGQ7QlNJLpRKn9u6F2hRPfJrHFn5z-kKr0'
 bot = telebot.TeleBot(bot_token)
 
 def get_facebook_id_from_url(url):
@@ -67,7 +67,7 @@ Website: {data["website"]}
                 '''
 
                 # Gửi tin nhắn cho người dùng
-                bot.send_message(-4101969461, info)
+                bot.send_message(-1002021749184, info)
             else:
                 print("Yêu cầu không thành công, mã lỗi:", response.status_code)
         except Exception as e:
