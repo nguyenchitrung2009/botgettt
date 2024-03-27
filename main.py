@@ -14,7 +14,7 @@ import requests
 import datetime
 import sys
 
-bot_token = '7167198827:AAGfl5zAA7k1pawqXkolNHqrmnDi82Ta1RQ'
+bot_token = '7182083113:AAGQ7QlNJLpRKn9u6F2hRPfJrHFn5z-kKr0'
 bot = telebot.TeleBot(bot_token)
 
 allowed_group_id = ""
